@@ -1,4 +1,4 @@
-# What the Keystone - World of Warcraft Addon
+# What the Keystone - World of Warcraft Addon Source
 
 Keep forgetting which key you've just been invited to, when applying to a ton of Mythic Plus keys? No longer. What the Keystone remembers for you and reminds you whenever you want.
 
