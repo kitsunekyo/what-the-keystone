@@ -1,0 +1,53 @@
+{
+  "Lua.runtime.version": "Lua 5.1",
+  "Lua.runtime.builtin": {
+    "basic": "disable",
+    "debug": "disable",
+    "io": "disable",
+    "math": "disable",
+    "os": "disable",
+    "package": "disable",
+    "string": "disable",
+    "table": "disable",
+    "utf8": "disable"
+  },
+  "Lua.workspace.library": [
+    "~\\.vscode\\extensions\\ketho.wow-api-0.18.1\\Annotations"
+  ],
+  "Lua.diagnostics.globals": [
+    "SlashCmdList",
+    "UISpecialFrames",
+    "FRIENDS_LIST_REALM",
+    "TooltipDataProcessor",
+    "LFGListApplicationViewer_UpdateApplicantMember",
+    "LFGListSearchEntry_Update",
+    "VIDEO_OPTIONS_DISABLED",
+    "VIDEO_OPTIONS_ENABLED",
+    "ALT_KEY",
+    "LALT_KEY_TEXT",
+    "RALT_KEY_TEXT",
+    "CTRL_KEY",
+    "LCTRL_KEY_TEXT",
+    "RCTRL_KEY_TEXT",
+    "SHIFT_KEY",
+    "LSHIFT_KEY_TEXT",
+    "RSHIFT_KEY_TEXT",
+    "LFG_LIST_TOOLTIP_LEADER",
+    "ChatFrame_AddMessageEventFilter",
+    "CommunitiesFrame",
+    "FriendsTooltip",
+    "FriendsFrameTooltip_SetLine",
+    "Settings",
+    "LFGLIST_NAME",
+    "BATTLEGROUND",
+    "INSTANCE",
+    "PARTY",
+    "RAID",
+    "CHANNEL",
+    "SAY",
+    "WHISPER",
+    "NORMAL_FONT_COLOR_CODE",
+    "COMMUNITIES",
+    "ADDON_DISABLED"
+  ]
+}

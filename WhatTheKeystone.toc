@@ -1,0 +1,9 @@
+## Interface: 110007
+## Title: What the Keystone
+## Notes: Remembers which keystone you've just joined and prints it in the chat.
+## Author: KitsuneKyo
+## Version: 1.0.0
+## RequiredDeps:
+## X-Curse-Project-ID: 999999
+
+WhatTheKey.lua
