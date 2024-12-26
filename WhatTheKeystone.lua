@@ -20,7 +20,7 @@ end
 
 SLASH_WHATTHEKEYSTONE1 = "/whatthekeystone"
 SLASH_WHATTHEKEYSTONE2 = "/wtk"
-SlashCmdList["WHATTHEKEY"] = function()
+SlashCmdList["WHATTHEKEYSTONE"] = function()
     handleSlashCommand()
 end
 
