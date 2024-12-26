@@ -2,7 +2,7 @@
 ## Title: What the Keystone
 ## Notes: Remembers which keystone you've just joined and prints it in the chat.
 ## Author: KitsuneKyo
-## Version: 1.0.2
+## Version: 1.0.3
 ## RequiredDeps:
 ## X-Curse-Project-ID: 1166248
 
