@@ -3,11 +3,12 @@ WhatTheKeystone.state = {}
 WhatTheKeystone.state.keystone = nil
 
 local function prettyPrint(string)
-    print("|cFF34E0FFWhatTheKeystone:|r " .. string)
+    print("|cFFFFFF00WhatTheKeystone:|r " .. string)
 end
 
-local function formatInfo(fullName, difficulty)
-    return ("|cFFF9D65D%s +%s|r"):format(fullName, tostring(difficulty or "?"))
+local function formatInfo(keystone)
+    local shortName = keystone:gsub("%s%([äöüÄÖÜa-zA-Z ]*%)", "")
+    return ("%s"):format(tostring(shortName or ""))
 end
 
 local function handleSlashCommand()
@@ -25,10 +26,6 @@ SlashCmdList["WHATTHEKEYSTONE"] = function()
 end
 
 local function handleGroupJoin(groupName)
-    if not groupName then
-        return nil
-    end
-
     local info = C_LFGList.GetSearchResultInfo(groupName)
     if not info then
         prettyPrint("|cFFFF0000 Error finding group|r")
@@ -48,7 +45,7 @@ local function handleGroupJoin(groupName)
         return nil
     end
 
-    local message = formatInfo(activityInfo.fullName, activityInfo.difficultyID)
+    local message = formatInfo(activityInfo.fullName)
     WhatTheKeystone.state.keystone = message
 
     prettyPrint(message)
